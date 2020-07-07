@@ -1,0 +1,23 @@
+{
+  "name": "cs50x",
+  "version": "1.0.0",
+  "description": "cs50x assignments in JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaushikb9/CS50x.js.git"
+  },
+  "author": "Kaushik Bhat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kaushikb9/CS50x.js/issues"
+  },
+  "homepage": "https://github.com/kaushikb9/CS50x.js#readme",
+  "dependencies": {
+    "prompt": "^1.0.0",
+    "prompt-sync": "^4.2.0"
+  }
+}
