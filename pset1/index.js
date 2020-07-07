@@ -6,7 +6,7 @@ const prompter = ()=>{
 	2. Mario
 	3. Credit
 	4. Exit Prompt\n`
-	console.log("\n\tProblems in Set 1", programs)
+	console.log("\nProblems in Set 1", programs)
 
 	let option = prompt("Which problem do you want to execute? (enter the problem number): ");
 

@@ -34,8 +34,8 @@ const tower = (height)=>{
 }
 
 const prompter = ()=>{
-  let height = prompt("What is the height of the tower (type 0 to exit): ");
-  if(height === "0"){
+  let height = prompt("Enter height of the tower (type Q to exit): ");
+  if(height === "Q"){
     console.log("Bye")
   }else{
     tower(height)
