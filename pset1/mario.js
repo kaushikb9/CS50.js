@@ -1,9 +1,16 @@
-// input: 4
-// output:
-//     * *
-//    ** **
-//   *** ***
-//  **** ****
+/** 
+
+URL: https://cs50.harvard.edu/x/2020/psets/1/mario/more/
+Implement a program that recreate Mario's pyramids
+
+Input: 4
+Output:
+   * *
+  ** **
+ *** ***
+**** ****
+
+**/
 
 const prompt = require('prompt-sync')({sigint: true});
 
@@ -18,7 +25,7 @@ const build = (height, layer, row, kind)=>{
 	return layer
 }
 
-const tower = (height)=>{
+const main = (height)=>{
   if(height > 0){
   	for(row = 1; row <= height; row++){
   		var layer = ""
@@ -34,11 +41,11 @@ const tower = (height)=>{
 }
 
 const prompter = ()=>{
-  let height = prompt("Enter height of the tower (type Q to exit): ");
-  if(height === "Q"){
+  let input = prompt("Enter height of the tower (type Q to exit): ");
+  if(input === "Q"){
     console.log("Bye")
   }else{
-    tower(height)
+    main(input)
     prompter()  
   }
 }
